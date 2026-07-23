@@ -1,0 +1,32 @@
+{
+  "timeZone": "Etc/GMT",
+  "dependencies": {
+    "libraries": []
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "dataStudio": {
+    "name": "FMI Weather Forecast",
+    "logoUrl": "https://raw.githubusercontent.com/google/material-design-icons/master/png/social/poll/materialicons/48dp/1x/baseline_poll_black_48dp.png",
+    "company": "FMI Testing",
+    "companyUrl": "https://example.com",
+    "addonUrl": "https://example.com",
+    "supportUrl": "https://example.com",
+    "description": "Looker Studio connector that extracts 7-day hourly temperature predictions from the Finnish Meteorological Institute (FMI) API.",
+    "sources": [
+      "OTHER"
+    ],
+    "authType": [
+      "NONE"
+    ],
+    "feeType": [
+      "FREE"
+    ]
+  },
+  "urlFetchWhitelist": [
+    "https://opendata.fmi.fi/"
+  ],
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/script.external_request"
+  ]
+}
